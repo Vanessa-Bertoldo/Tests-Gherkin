@@ -39,13 +39,13 @@ public class CadastroColetasSteps {
         Assert.assertEquals(message, erroMessageModel.getMessage());
     }
 
-    @Dado("que eu tenha os seguintes dados da coleta:")
-    public void queEuTenhaOsSeguintesDadosDaEntrega() {
-    }
-
-    @Quando("eu enviar a requisição para o endpoint {string} de cadastro de coleta")
-    public void euEnviarARequisiçãoParaOEndpointDeCadastroDeEntregas(String arg0) {
-    }
+//    @Dado("que eu tenha os seguintes dados da coleta:")
+//    public void queEuTenhaOsSeguintesDadosDaEntrega() {
+//    }
+//
+//    @Quando("eu enviar a requisição para o endpoint {string} de cadastro de coleta")
+//    public void euEnviarARequisiçãoParaOEndpointDeCadastroDeEntregas(String arg0) {
+//    }
 
     @Dado("que eu recupere o ID da coleta criada no contexto")
     public void queEuRecupereOIDDaColetaCriadaNoContexto() {
